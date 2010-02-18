@@ -1,0 +1,61 @@
+{
+  "mysql": {
+    "server_root_password": "root"
+  },
+  "ruby_enterprise": {
+    "version": "1.8.7-2010.01",
+    "install_path": "/usr/local",
+    "ruby_bin": "/usr/local/bin/ruby",
+    "gems_dir": "/usr/local/lib/ruby/gems/1.8",
+    "url": "http://rubyforge.org/frs/download.php/68719/ruby-enterprise-1.8.7-2010.01.tar.gz"
+  },
+  "passenger_enterprise": {
+    "version": "2.2.9",
+    "root_path": "/usr/local/lib/ruby/gems/1.8/gems/passenger-2.2.9"
+  },
+  "gems": [
+     { "name": "rake" },
+     { "name": "rails" },
+     { "name": "bundler" },
+     { "name": "paperclip" },
+     { "name": "mysql" },
+     { "name": "newrelic_rpm" },
+     { "name": "rack" },
+     { "name": "rack-cache" },
+     { "name": "rakismet" },
+     { "name": "RedCloth" },
+     { "name": "ruby-openid" },
+     { "name": "will_paginate" }
+  ],
+  "apps": [ 
+    { 
+      "name": "enki", 
+      "username": "akitaonrails", 
+      "git_branch": "akitaonrails", 
+      "server": "debian.local"
+    } 
+  ],
+  "users": {
+    "akitaonrails": {
+      "password": "$1$U59NaHqf$IU.M5CGMwQfJT3eMkHyRu.",
+      "comment": "Fabio Akita"
+    }
+  },
+  "authorization": {
+    "sudo": {
+      "users": ["akitaonrails"]
+    }
+  },
+  "recipes": [
+    "build-essential", 
+    "git", 
+    "iptables",
+    "users",
+    "sudoers",
+    "imagemagick", 
+    "mysql", 
+    "passenger_enterprise::nginx",
+    "gems",
+    "simple_rails_app"
+  ]
+}
