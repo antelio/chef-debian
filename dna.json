@@ -1,6 +1,6 @@
 {
   "mysql": {
-    "server_root_password": "root"
+    "server_root_password":  "root"
   },
   "ruby_enterprise": {
     "version": "1.8.7-2010.01",
@@ -14,18 +14,23 @@
     "root_path": "/usr/local/lib/ruby/gems/1.8/gems/passenger-2.2.9"
   },
   "gems": [
-     { "name": "rake" },
-     { "name": "rails" },
-     { "name": "bundler" },
-     { "name": "paperclip" },
-     { "name": "mysql" },
-     { "name": "newrelic_rpm" },
-     { "name": "rack" },
-     { "name": "rack-cache" },
-     { "name": "rakismet" },
-     { "name": "RedCloth" },
-     { "name": "ruby-openid" },
-     { "name": "will_paginate" }
+    { "name": "rake" },
+    { "name": "rails" },
+    { "name": "bundler" },
+    { "name": "paperclip" },
+    { "name": "chronic" },
+    { "name": "coderay" },
+    { "name": "mysql" },
+    { "name": "newrelic_rpm" },
+    { "name": "rack" },
+    { "name": "rack-cache" },
+    { "name": "rakismet" },
+    { "name": "RedCloth" },
+    { "name": "ruby-openid" },
+    { "name": "will_paginate" },
+    { "name": "cucumber" },
+    { "name": "rspec" },
+    { "name": "rspec-rails" }
   ],
   "apps": [ 
     { 
@@ -56,9 +61,9 @@
     "users",
     "sudo",
     "imagemagick", 
-    "mysql", 
     "passenger_enterprise::nginx",
     "gems",
+    "mysql::server", 
     "simple_rails_app"
   ]
 }
