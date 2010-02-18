@@ -1,0 +1,36 @@
+== Chef-Solo Example for Debian 5.0.4 ==
+
+This project was created to showcase an example usage of chef-solo.
+
+Download the CD ISO file: 
+
+http://cdimage.debian.org/debian-cd/5.0.4/i386/iso-cd/debian-504-i386-CD-1.iso
+
+Install it under Virtual Box, VMWare or Parallels. To make it easy, create a "debian.local" hostname into your physical machine's /etc/hosts file pointing up to the virtual machine's ip address.
+
+Now log into the virtual machine with the "root" user and do the following:
+
+	apt-get install ssh
+
+  wget http://rubyforge.org/frs/download.php/68718/ruby-enterprise_1.8.7-2010.01_i386.deb
+  dpkg -i ruby-enterprise_1.8.7-2010.01_i386.deb
+  gem install chef ohai --no-ri --no-rdoc
+
+  wget http://github.com/akitaonrails/chef-debian/tarball/master -O ~/chef.tar
+  cd /etc
+  tar xvf ~/chef.tar
+
+  wget http://github.com/akitaonrails/cookbooks/tarball/master -O ~/cookbooks.tar
+  mkdir -p /var/chef-solo
+  cd /var/chef-solo
+  tar xvf ~/cookbooks.tar
+
+Now edit the "/etc/chef/dna.json" file to suit your needs. For the specific password generation use the command "openssl passwd -1" and copy the resulting string in the dna.json file. Then run:
+
+  chef-solo -c /etc/chef/solo.rb -j /etc/chef/dna.json
+
+It will dump a stack trace at the end but the configuratin will go through to the end properly (still unaware why it dumps it).
+
+== Author ==
+
+Fabio Akita (fabioakita@gmail.com)
