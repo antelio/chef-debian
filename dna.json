@@ -41,6 +41,9 @@
       "comment": "Fabio Akita"
     }
   },
+  "ssh_keys": {
+    "akitaonrails": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAn2ex9dhExIoIS4+s2TaCyCYlphhyVBitG56mqzrjh3K8i7BnYrS6k6uWtThaOUJu4mTBv4RJ7YsQ2YHzuSyX9U52CFD1dnJiZXlmpDGjckehBxdEvwLfsxT0qP40kdryp6peL6etvJDGpBk9pkAHVmYASSrcmG2PNhWPn9TXogAw2BhiQTOc9ep+i4HvdWbdM9xH7SX9zny6fiEEy5jEKvr3bxg9xcGPCPprZ+OimQg6FaHhgHXENB8UouioA1B/BQa+fEKC141rOxiRD81l/MDQNZYh2y1kWRbNxhdStzbXthoI9joq7Nl4sV6/xXZiW2lS9FKNY+8MQ6G/MCay0w== fabioakita@MacHal9001.local"
+  },
   "authorization": {
     "sudo": {
       "users": ["akitaonrails"]
@@ -51,7 +54,7 @@
     "git", 
     "iptables",
     "users",
-    "sudoers",
+    "sudo",
     "imagemagick", 
     "mysql", 
     "passenger_enterprise::nginx",
