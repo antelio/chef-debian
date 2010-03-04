@@ -43,12 +43,12 @@
   ],
   "users": {
     "abe": {
-      "password": "	$1$.UqhyG/z$SFPl4FIDiMV4WsHjhUP4W0",
-      "comment": "Antelio I. Ab"
+      "password": "$1$.UqhyG/z$SFPl4FIDiMV4WsHjhUP4W0",
+      "comment": "Antelio I. Abe"
     }
   },
   "ssh_keys": {
-    "akitaonrails": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA22NmOMGXBiS4BK7tqpnu0F+SaH2y/pYwEHi48kzB6E9G1SZsLp2kIuVXtUnbghStNiH0Z0arGmkB60gvrqXRMzvKgyqfkbbaabu/OXeZKc7J11c1KMZTFI2Vupmusfz83hy6Lm5HwecaTzGvYN8B+RmBu7pnYMHEjkMJnuPxhjBOHGGBUGHJFxHX7OLj7jSQ0zd7Ad7B59FeqZ7VYM/B3selqPI7jY7UxtC9vPegn2M6DaoLRC/jkg3jKh7n+CPIIfgMNHV4igv39qe8PTnuSefDPTttr+qDwJbaGOe4UKqTBoJrKHYKmMGNYOJUvVo7cJ9XBU31K3nhqqleHBoILw== abe@sp1mac01.local"
+    "abe": "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA22NmOMGXBiS4BK7tqpnu0F+SaH2y/pYwEHi48kzB6E9G1SZsLp2kIuVXtUnbghStNiH0Z0arGmkB60gvrqXRMzvKgyqfkbbaabu/OXeZKc7J11c1KMZTFI2Vupmusfz83hy6Lm5HwecaTzGvYN8B+RmBu7pnYMHEjkMJnuPxhjBOHGGBUGHJFxHX7OLj7jSQ0zd7Ad7B59FeqZ7VYM/B3selqPI7jY7UxtC9vPegn2M6DaoLRC/jkg3jKh7n+CPIIfgMNHV4igv39qe8PTnuSefDPTttr+qDwJbaGOe4UKqTBoJrKHYKmMGNYOJUvVo7cJ9XBU31K3nhqqleHBoILw== abe@sp1mac01.local"
   },
   "authorization": {
     "sudo": {
