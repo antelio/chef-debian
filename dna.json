@@ -48,13 +48,13 @@
     }
   },
   "recipes": [
-    "git", 
-    "iptables",
+//    "git", 
+//    "iptables",
     "users",
-    "sudo",
-    "imagemagick", 
-    "passenger_enterprise::nginx",
-    "gems",
-    "mysql::server"
+//    "sudo",
+//    "imagemagick", 
+//    "passenger_enterprise::nginx",
+//    "gems",
+//    "mysql::server"
   ]
 }
