@@ -55,6 +55,6 @@
     "imagemagick", 
     "passenger_enterprise::nginx",
     "gems",
-    "mysql::server", 
+    "mysql::server"
   ]
 }
