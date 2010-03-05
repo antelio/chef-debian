@@ -56,6 +56,5 @@
     "passenger_enterprise::nginx",
     "gems",
     "mysql::server", 
-    "simple_rails_app"
   ]
 }
