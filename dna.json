@@ -50,7 +50,7 @@
   "recipes": [
 //    "git", 
 //    "iptables",
-    "users",
+    "users"
 //    "sudo",
 //    "imagemagick", 
 //    "passenger_enterprise::nginx",
