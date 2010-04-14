@@ -23,6 +23,9 @@
     },
   "recipes": 
     [
-    "users"
-    ]
+    "build-essential", 
+    "git", 
+    "users",
+    "sudo",
+     ]
 }
