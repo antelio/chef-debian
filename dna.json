@@ -1,9 +1,5 @@
 
 {
-	"mysql": {
-    "server_root_password":  "root",
-    "bind_address": "127.0.0.1"
-  },
   "ruby_enterprise": {
     "version": "1.8.7-2010.01",
     "install_path": "/usr/local",
